@@ -1,0 +1,16 @@
+# Dependencies
+node_modules/
+
+.env
+.env.local
+.env.test
+
+# Build output
+dist/
+.next/
+
+# Prisma
+prisma/migrations/dev.db
+
+# OS files
+.DS_Store

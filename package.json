@@ -1,0 +1,12 @@
+{
+  "name": "slugify",
+  "private": true,
+  "scripts": {
+    "dev": "concurrently \"pnpm --filter web dev\" \"pnpm --filter api dev\"",
+    "build": "pnpm --filter web build && pnpm --filter api build",
+    "test": "pnpm --filter api test"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.0"
+  }
+}
